@@ -4,7 +4,7 @@ var ref;
 form.addEventListener('submit',(e)=>{
 	e.preventDefault();
 	if(ref){
-		clearTimeOut(ref);
+		clearTimeout(ref);
 	}
 	const ctype=form.elements.coinType.value;
 	fetchPrice(ctype);
