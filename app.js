@@ -59,6 +59,6 @@ const fetchPrice= async(ctype)=>{
 					</td>
 				</tr>
 			</tbody>`
-			ref=setTimeout(()=>fetchPrice(ctype),20000);
+			ref=setTimeout(()=>fetchPrice(ctype),10000);
 }
 
